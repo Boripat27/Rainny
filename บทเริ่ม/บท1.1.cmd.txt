@@ -1,0 +1,5 @@
+age = int(input("กรุณากรอกอายุของคุณ"))
+if age >= 60: print("ผู้สูงอายุ")
+elif age >= 25: print("วันทำงาน")
+elif age >= 18: print("วัยมหาลัย")
+else: print("เด็กกระโปรก")
